@@ -2,53 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ChealyOeng.github.io/travel/london.html</loc>
-    <lastmod>2022-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/travel/manchester.html</loc>
-    <lastmod>2022-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/travel/lake_district.html</loc>
-    <lastmod>2021-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/travel/nottingham.html</loc>
-    <lastmod>2020-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/travel/scotland.html</loc>
-    <lastmod>2021-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/travel/wales.html</loc>
-    <lastmod>2021-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/travel/cyprus.html</loc>
-    <lastmod>2021-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/tags/england.html</loc>
-    <lastmod>2022-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/travel.html</loc>
-    <lastmod>2022-06-15T00:16:18+01:00</lastmod>
+    <loc>https://ChealyOeng.github.io/portfolio.html</loc>
+    <lastmod>2022-10-19T00:40:04-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ChealyOeng.github.io/recipes.html</loc>
-    <lastmod>2022-06-14T15:05:35+01:00</lastmod>
+    <loc>https://ChealyOeng.github.io/portfolio/trend_board_aw23.html</loc>
+    <lastmod>2022-10-19T00:40:04-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://ChealyOeng.github.io/portfolio/trend_board_ss22.html</loc>
+    <lastmod>2022-09-19T00:40:04-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -57,35 +22,16 @@
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://ChealyOeng.github.io/tags/cyprus.html</loc>
-    <lastmod>2021-06-15T00:16:18+01:00</lastmod>
+    <loc>https://ChealyOeng.github.io/portfolio/project_serendipity.html</loc>
+    <lastmod>2021-10-19T00:40:04-07:00</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/tags/europe.html</loc>
-    <lastmod>2021-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/tags/scottland.html</loc>
-    <lastmod>2021-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/tags/wales.html</loc>
-    <lastmod>2021-06-15T00:16:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url><url>
     <loc>https://ChealyOeng.github.io/bio.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://ChealyOeng.github.io/contact.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>https://ChealyOeng.github.io/portfolio.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
