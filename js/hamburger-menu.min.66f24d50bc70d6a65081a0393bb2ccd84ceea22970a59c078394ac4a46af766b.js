@@ -1,0 +1,1 @@
+window.onload=()=>{const e=document.querySelector("#menuButton"),t=document.getElementsByTagName("nav")[0];e.addEventListener("click",()=>{var n=e.classList.toggle("Active");t.classList.toggle("Active",n)})}

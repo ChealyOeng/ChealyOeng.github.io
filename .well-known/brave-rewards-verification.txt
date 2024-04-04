@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: yiannis-charalambous.com
+Token: 55cf79e63608ca89263343c4228cfbadbaffeaa459be30c7a6211bdfabdc3225
