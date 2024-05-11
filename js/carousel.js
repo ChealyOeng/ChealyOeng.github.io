@@ -2,6 +2,9 @@ MIN_WIDTH_CAROUSEL_TEXT = 400
 
 
 class Carousel {
+    static #lastScrollX = 0;
+    static #lastScrollY = 0;
+
     domElement = null;
     #leftArrow = null;
     #rightArrow = null;
@@ -32,6 +35,18 @@ class Carousel {
         return idx;
     }
 
+    static #disableScroll() {
+        // Scroll to that position immediately after any attempt to scroll:
+        window.onscroll = function () {
+            window.scrollTo(Carousel.#lastScrollX, Carousel.#lastScrollY);
+            Carousel.#enableScroll();
+        };
+    }
+
+    static #enableScroll() {
+        window.onscroll = null;
+    }
+
     static #onClickRightArrow(carousel) {
         function setDefaults() {
             carousel.#leftArrow.setAttribute("slide", 0);
@@ -47,7 +62,12 @@ class Carousel {
             return;
         }
 
+        // Remember last position
+        Carousel.#lastScrollX = window.scrollX;
+        Carousel.#lastScrollY = window.scrollY;
+
         carousel.#leftArrow.setAttribute("slide", idx);
+        Carousel.#disableScroll();
         window.location.hash = `slide-${idx + 1}`;
         carousel.#rightArrow.setAttribute("slide", idx + 2);
     }
@@ -67,7 +87,15 @@ class Carousel {
             return;
         }
 
+        // Remember last position
+        Carousel.#lastScrollX = window.scrollX;
+        Carousel.#lastScrollY = window.scrollY;
+
+        console.log(Carousel.#lastScrollX,
+            Carousel.#lastScrollY);
+
         carousel.#leftArrow.setAttribute("slide", idx - 2);
+        Carousel.#disableScroll();
         window.location.hash = `slide-${idx - 1}`;
         carousel.#rightArrow.setAttribute("slide", idx);
     }
